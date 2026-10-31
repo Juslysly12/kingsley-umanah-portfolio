@@ -1,0 +1,21 @@
+<section id="experience" class="section">
+  <div class="container">
+    <h2 class="section-title" data-aos="fade-up">Experience</h2>
+    <div class="timeline">
+      {{ range .Site.Data.experience }}
+      <div class="timeline-item" data-aos="fade-up">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>{{ .role }}</h3>
+          <p class="timeline-meta">{{ .company }} · {{ .period }}</p>
+          <ul>
+            {{ range .points }}
+            <li>{{ . }}</li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>

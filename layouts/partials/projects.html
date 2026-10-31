@@ -1,0 +1,28 @@
+<section id="projects" class="section">
+  <div class="container">
+    <h2 class="section-title" data-aos="fade-up">Featured Projects</h2>
+    <div class="projects-grid">
+      {{ range .Site.Data.projects }}
+      <article class="project-card" data-aos="fade-up">
+        <div class="project-image">
+          <span class="project-placeholder">Project Preview</span>
+          <span class="project-status">{{ .status }}</span>
+        </div>
+        <div class="project-body">
+          <p class="project-category">{{ .category }}</p>
+          <h3>{{ .title }}</h3>
+          <p>{{ .description }}</p>
+          <div class="project-tags">
+            {{ range .tags }}<span class="tag">{{ . }}</span>{{ end }}
+          </div>
+          {{ if .links }}
+          <div class="project-links">
+            {{ range .links }}<a href="{{ .url }}">{{ .label }}</a>{{ end }}
+          </div>
+          {{ end }}
+        </div>
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>

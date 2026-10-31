@@ -1,0 +1,19 @@
+<section id="contact" class="section section-alt">
+  <div class="container">
+    <h2 class="section-title" data-aos="fade-up">Let's Work Together</h2>
+    <p class="contact-intro" data-aos="fade-up">I'm open to remote roles, freelance projects and collaborations. Reach out and let's build something valuable.</p>
+    <div class="contact-grid" data-aos="fade-up">
+      <div class="contact-info">
+        <p><i class="fa-solid fa-envelope"></i> <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a></p>
+        <p><i class="fa-brands fa-whatsapp"></i> <a href="https://wa.me/{{ .Site.Params.whatsapp }}" target="_blank" rel="noopener">WhatsApp: {{ .Site.Params.phone }}</a></p>
+        <p><i class="fa-solid fa-location-dot"></i> {{ .Site.Params.location }}</p>
+      </div>
+      <form class="contact-form" action="mailto:{{ .Site.Params.email }}" method="post" enctype="text/plain">
+        <input type="text" name="name" placeholder="Your name" required>
+        <input type="email" name="email" placeholder="Your email" required>
+        <textarea name="message" placeholder="Your message" rows="5" required></textarea>
+        <button class="btn btn-gold" type="submit">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>

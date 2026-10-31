@@ -1,0 +1,13 @@
+<section id="education" class="section section-alt">
+  <div class="container">
+    <h2 class="section-title" data-aos="fade-up">Education</h2>
+    <div class="edu-grid">
+      {{ range .Site.Data.education }}
+      <div class="edu-card" data-aos="fade-up">
+        <h3>{{ .degree }}</h3>
+        <p>{{ .year }}</p>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>

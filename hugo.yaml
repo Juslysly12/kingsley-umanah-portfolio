@@ -1,0 +1,18 @@
+baseURL: "https://example.com/"
+languageCode: "en-us"
+title: "Kingsley Umanah | Portfolio"
+disableKinds: ["taxonomy", "term"]
+enableRobotsTXT: true
+
+params:
+  description: "Professional portfolio of Kingsley Umanah"
+  author: "Kingsley Umanah"
+  email: "Kingsleyumanah80@gmail.com"
+  phone: "+234 913 264 1668"
+  whatsapp: "2349132641668"
+  location: "Ikot Ekpene, Akwa Ibom, Nigeria"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
