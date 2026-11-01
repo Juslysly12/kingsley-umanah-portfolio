@@ -1,0 +1,13 @@
+<section id="services" class="section section-alt">
+  <div class="container">
+    <h2 class="section-title" data-aos="fade-up">Services</h2>
+    <div class="services-grid">
+      {{ range .Site.Data.services }}
+      <div class="service-card" data-aos="fade-up">
+        <h3>{{ .title }}</h3>
+        <p>{{ .description }}</p>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
