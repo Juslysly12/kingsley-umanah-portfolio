@@ -128,7 +128,9 @@ a { color: var(--accent); text-decoration: none; }
   .hero-subtitle { font-weight: 600; }
   .hero-desc { margin: .75rem auto; }
   .about-card { text-align: center; }
-  .about-card-item { justify-content: center; gap: .5rem; }
+  .about-card-item { flex-direction: column; align-items: stretch; gap: .35rem; margin-bottom: 1rem; }
+  .about-card-item span { text-align: left; }
+  .about-card-item strong { display: block; text-align: center; }
   .contact-info { text-align: center; }
   .contact-info p { justify-content: center; }
 }
