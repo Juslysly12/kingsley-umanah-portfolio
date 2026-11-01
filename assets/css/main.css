@@ -121,7 +121,16 @@ a { color: var(--accent); text-decoration: none; }
   .site-nav.open { display: flex; }
   .nav-toggle { display: block; }
   .about-grid, .contact-grid { grid-template-columns: 1fr; }
-  .hero-photo { width: 180px; height: 180px; }
+  .hero { min-height: auto; padding: 2.5rem 0; }
+  .hero-content { gap: .5rem; }
+  .hero-photo { width: 260px; height: 260px; margin: 1rem 0; }
+  .hero-title { font-weight: 700; }
+  .hero-subtitle { font-weight: 600; }
+  .hero-desc { margin: .75rem auto; }
+  .about-card { text-align: center; }
+  .about-card-item { justify-content: center; gap: .5rem; }
+  .contact-info { text-align: center; }
+  .contact-info p { justify-content: center; }
 }
 @media (prefers-reduced-motion: reduce) {
   * { animation: none !important; transition: none !important; scroll-behavior: auto; }
