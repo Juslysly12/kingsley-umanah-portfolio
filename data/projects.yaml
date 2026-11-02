@@ -1,23 +1,21 @@
 - title: St. Paul Comprehensive Secondary School Website
   category: Web Development
   status: Ongoing Maintenance
-  description: A school website project involving website updates, content management, and maintaining the school's online presence.
-  image: /images/projects/stpaul.jpg
-  tags: [Hugo, HTML, CSS]
-  links:
-    - label: View
-      url: "#"
+  description: Website development, content management, and maintenance for St. Paul's Comprehensive Secondary School.
+  image: /images/projects/st-paul-school-website.jpeg
+  tags: [Hugo, HTML, CSS, JavaScript]
+  links: []
 - title: LinkCart
   category: Web Development
   status: In Development
-  description: A web project currently being developed. Presented professionally without claiming completion or public launch.
-  image: /images/projects/linkcart.jpg
-  tags: []
+  description: A digital storefront platform designed to help small businesses create and share simple online stores.
+  image: /images/projects/linkcart-project.png
+  tags: [Web Development]
   links: []
 - title: Clipbox
   category: Digital Media & Content Creation
   status: Active Brand
-  description: A digital content brand focused on creating and publishing engaging video clips for online audiences.
-  image: /images/projects/clipbox.jpg
+  description: A digital media and content creation brand focused on entertainment video clipping, video editing, and social media content publishing.
+  image: /images/projects/clipbox-project.jpeg
   tags: [Video Editing, Content Creation, Social Media Publishing]
   links: []
