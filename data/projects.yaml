@@ -7,8 +7,6 @@
   links:
     - label: Visit Website
       url: https://stpaul.sch.ng/
-    - label: View TikTok
-      url: https://www.tiktok.com/@stpaulsecondary?_r=1&_t=ZS-9B2hchKBuhl
 - title: LinkCart
   category: Web Development
   status: In Development
@@ -22,4 +20,6 @@
   description: A digital media and content creation brand focused on entertainment video clipping, video editing, and social media content publishing.
   image: /images/projects/clipbox-project.jpeg
   tags: [Video Editing, Content Creation, Social Media Publishing]
-  links: []
+  links:
+    - label: Visit TikTok
+      url: https://www.tiktok.com/@stpaulsecondary?_r=1&_t=ZS-9B2hchKBuhl
