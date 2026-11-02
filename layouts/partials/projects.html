@@ -17,7 +17,7 @@
           </div>
           {{ if .links }}
           <div class="project-links">
-            {{ range .links }}<a href="{{ .url }}">{{ .label }}</a>{{ end }}
+            {{ range .links }}<a href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ .label }}</a>{{ end }}
           </div>
           {{ end }}
         </div>

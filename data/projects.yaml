@@ -4,7 +4,11 @@
   description: Website development, content management, and maintenance for St. Paul's Comprehensive Secondary School.
   image: /images/projects/st-paul-school-website.jpeg
   tags: [Hugo, HTML, CSS, JavaScript]
-  links: []
+  links:
+    - label: Visit Website
+      url: https://stpaul.sch.ng/
+    - label: View TikTok
+      url: https://www.tiktok.com/@stpaulsecondary?_r=1&_t=ZS-9B2hchKBuhl
 - title: LinkCart
   category: Web Development
   status: In Development
